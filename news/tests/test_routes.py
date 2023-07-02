@@ -2,7 +2,7 @@ from http import HTTPStatus
 from unittest import skip
 
 from django.contrib.auth import get_user_model
-from django.test import Client, TestCase
+from django.test import TestCase
 from django.urls import reverse
 
 from news.models import News, Comment
